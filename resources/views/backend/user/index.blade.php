@@ -1,10 +1,10 @@
 @extends('layouts')
-<title>Wisata</title>
+<title>User</title>
 @include('backend.layouts.nav')
 <section>
 	<div class="container py-5">
 	<div class="text-center">
-		<h1 class="h1 fw-bold">Wisata</h1>
+		<h1 class="h1 fw-bold">User</h1>
 	</div>
 	<div class="card">
 		<div class="card-body">

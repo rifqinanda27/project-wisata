@@ -6,16 +6,22 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link text-dark fw-bold h4" href="{{ url('/admin/') }}">Home</a>
+          <a class="nav-link text-dark fw-bold h5" href="{{ url('/admin/') }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark fw-bold h4" href="{{ url('/admin/provinsi') }}">Provinsi</a>
+          <a class="nav-link text-dark fw-bold h5" href="{{ url('/admin/provinsi') }}">Provinsi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark fw-bold h4" href="{{ url('/admin/kota/') }}">Kota</a>
+          <a class="nav-link text-dark fw-bold h5" href="{{ url('/admin/kota/') }}">Kota</a>
         </li>
         <li>
-          <a class="nav-link text-dark fw-bold h4" href="{{ url('/admin/wisata') }}">Wisata</a>
+          <a class="nav-link text-dark fw-bold h5" href="{{ url('/admin/wisata') }}">Wisata</a>
+        </li>
+        <li>
+          <a class="nav-link text-dark fw-bold h5" href="{{ url('/admin/member') }}">Member</a>
+        </li>
+        <li>
+          <a class="nav-link text-dark fw-bold h5" href="{{ url('/admin/user') }}">User</a>
         </li>
       </ul>
     </div>

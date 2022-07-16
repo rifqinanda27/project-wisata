@@ -1,5 +1,5 @@
 @extends('layouts')
-<title>Provinsi</title>
+<title>Kota</title>
 @include('backend.layouts.nav')
 <section>
 	<div class="container py-5">
